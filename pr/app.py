@@ -62,7 +62,7 @@ def web_search_tool(query: str, num_results: int = 5):
         "q": query,
         "num": num_results
     }
-
+# tool to search the web
     try:
         response = requests.post(url, headers=headers, json=data, timeout=10)
         if response.status_code == 200:
