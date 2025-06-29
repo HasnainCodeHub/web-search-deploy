@@ -1,0 +1,5 @@
+chainlit
+openai
+requests
+chromadb
+python-dotenv
